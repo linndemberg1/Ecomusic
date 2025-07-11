@@ -1,11 +1,11 @@
-const int Button1 = 2; // Pino do primeiro Botão
-const int Button2 = 3; // Pino do segundo Botão
-const int Buzzer = 4; // Pino do buzzer
+const int Button1 = 2; // First Button Pin
+const int Button2 = 3; // Second Button Pin
+const int Buzzer = 4; // Buzzer pin
 
 int song1[] = {262, 294, 330, 349,
-               392, 440, 494, 523}; // Frequências para a primeira música
+               392, 440, 494, 523}; // Frequencies for the first song
 int song2[] = {392, 440, 494, 523, 
-               587, 659, 698, 784}; // Frequências para a segunda música
+               587, 659, 698, 784}; // Frequencies for the second song
 
 void setup() {
   pinMode(Button1, INPUT);
